@@ -1,0 +1,98 @@
+                * {
+                    padding: 0;
+                    margin: 0;
+                    font-family: sans-serif;
+                }
+                /* class website */
+                
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+                
+                .website {
+                    padding: 5px 0;
+                    background-color: burlywood;
+                }
+                
+                .website ul li {
+                    display: inline-block;
+                    color: white;
+                    margin-right: 10px;
+                }
+                
+                .container {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                
+                .container::after {
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+                /* class header */
+                
+                header h1 {
+                    float: left;
+                    padding: 15px 0;
+                    color: burlywood;
+                }
+                
+                header ul {
+                    float: right;
+                }
+                
+                header ul li {
+                    display: inline-block;
+                }
+                
+                header ul li a {
+                    padding: 25px 20px;
+                    display: inline-block;
+                }
+                
+                header ul li a:hover {
+                    background-color: burlywood;
+                    color: white;
+                }
+                
+                .active {
+                    background-color: burlywood;
+                    color: white;
+                }
+                /* class footer */
+                
+                .footer {
+                    height: 30px;
+                    background-color: burlywood;
+                    text-align: center;
+                    padding-top: 15px;
+                }
+                
+                .footer .made {
+                    color: white;
+                }
+                /* class wisata */
+                
+                .wisata {
+                    height: 100%;
+                    margin: auto auto auto auto;
+                    width: 97%;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+                
+                .title {
+                    padding-bottom: 23px;
+                    padding-top: 13px;
+                    text-align: center;
+                }
+                
+                .box {
+                    background-color: white;
+                    border: 1px solid #ccc;
+                    padding: 15px;
+                    box-sizing: border-box;
+                    margin: 10px 0 25px 0;
+                }
